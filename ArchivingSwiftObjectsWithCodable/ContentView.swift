@@ -8,6 +8,11 @@
 
 import SwiftUI
 
+struct User: Codable {
+    var firstName: String
+    var lastName: String
+}
+
 struct ContentView: View {
     var body: some View {
         Text("Hello World")
